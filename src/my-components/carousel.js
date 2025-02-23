@@ -21,6 +21,101 @@ const data = [
       title: 'Mountain view',
       description: '3.98M views',
     },
+    {
+      src: 'https://images.unsplash.com/photo-1532614338840-ab30cf10ed36',
+      title: 'Mountain view',
+      description: '3.98M views',
+    },
+    {
+      src: 'https://images.unsplash.com/photo-1532614338840-ab30cf10ed36',
+      title: 'Mountain view',
+      description: '3.98M views',
+    },
+    {
+      src: 'https://images.unsplash.com/photo-1532614338840-ab30cf10ed36',
+      title: 'Mountain view',
+      description: '3.98M views',
+    },
+    {
+      src: 'https://images.unsplash.com/photo-1532614338840-ab30cf10ed36',
+      title: 'Mountain view',
+      description: '3.98M views',
+    },
+    {
+      src: 'https://images.unsplash.com/photo-1532614338840-ab30cf10ed36',
+      title: 'Mountain view',
+      description: '3.98M views',
+    },
+    {
+      src: 'https://images.unsplash.com/photo-1532614338840-ab30cf10ed36',
+      title: 'Mountain view',
+      description: '3.98M views',
+    },
+    {
+      src: 'https://images.unsplash.com/photo-1532614338840-ab30cf10ed36',
+      title: 'Mountain view',
+      description: '3.98M views',
+    },
+    {
+      src: 'https://images.unsplash.com/photo-1532614338840-ab30cf10ed36',
+      title: 'Mountain view',
+      description: '3.98M views',
+    },
+    {
+      src: 'https://images.unsplash.com/photo-1532614338840-ab30cf10ed36',
+      title: 'Mountain view',
+      description: '3.98M views',
+    },
+    {
+      src: 'https://images.unsplash.com/photo-1532614338840-ab30cf10ed36',
+      title: 'Mountain view',
+      description: '3.98M views',
+    },
+    {
+      src: 'https://images.unsplash.com/photo-1532614338840-ab30cf10ed36',
+      title: 'Mountain view',
+      description: '3.98M views',
+    },
+    {
+      src: 'https://images.unsplash.com/photo-1532614338840-ab30cf10ed36',
+      title: 'Mountain view',
+      description: '3.98M views',
+    },
+    {
+      src: 'https://images.unsplash.com/photo-1532614338840-ab30cf10ed36',
+      title: 'Mountain view',
+      description: '3.98M views',
+    },
+    {
+      src: 'https://images.unsplash.com/photo-1532614338840-ab30cf10ed36',
+      title: 'Mountain view',
+      description: '3.98M views',
+    },
+    {
+      src: 'https://images.unsplash.com/photo-1532614338840-ab30cf10ed36',
+      title: 'Mountain view',
+      description: '3.98M views',
+    },
+    {
+      src: 'https://images.unsplash.com/photo-1532614338840-ab30cf10ed36',
+      title: 'Mountain view',
+      description: '3.98M views',
+    },
+    {
+      src: 'https://images.unsplash.com/photo-1532614338840-ab30cf10ed36',
+      title: 'Mountain view',
+      description: '3.98M views',
+    },
+    {
+      src: 'https://images.unsplash.com/photo-1532614338840-ab30cf10ed36',
+      title: 'Mountain view',
+      description: '3.98M views',
+    },
+    {
+      src: 'https://images.unsplash.com/photo-1532614338840-ab30cf10ed36',
+      title: 'Mountain view',
+      description: '3.98M views',
+    },
   ];
 
 
@@ -33,13 +128,12 @@ return (
         gap: 1,
         py: 1,
         overflow: 'auto',
-        width: 343,
+        width: '100%',
         scrollSnapType: 'x mandatory',
         '& > *': {
         scrollSnapAlign: 'center',
         },
         '::-webkit-scrollbar': { display: 'none' },
-        border: '1px solid black',
     }}
     >
     {data.map((item) => (
