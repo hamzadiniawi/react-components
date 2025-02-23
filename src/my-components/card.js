@@ -14,7 +14,8 @@ export default function ProductCard({value}) {
     <Card sx={{ width: 320, maxWidth: '100%', boxShadow: 'lg' }}>
       <CardOverflow>
         <AspectRatio sx={{ minWidth: 200 }}>
-          <img
+          {/* Good move hh */}
+          <img 
             src={value}
             srcSet={"${value}&dpr=2 2x"}
             loading="lazy"
